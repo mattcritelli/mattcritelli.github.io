@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css" type="text/css">
 	<title>Matt's NYC Page</title>
 </head>	
 <body>
@@ -9,23 +11,43 @@
 		<a href="destinations/high-line.html">The High Line</a>
 		<a href="destinations/cloisters.html">The Cloisters</a>
 	</nav>
-	<h1>Welcome to my favorite places in <em>New York City!</em></h1>
-	<img height="300" width="650" src="images/nyc-skyline.jpg" alt="New York City Downtown Skyline">
+	<div class="opening">
+		<h1>Welcome to my favorite places in <em>New York City!</em></h1>
+		<img height="300" width="650" src="images/nyc-skyline.jpg" alt="New York City Downtown Skyline">
+	</div>
+
 	<h2>What's this page all about?</h2>
-	<p>New York City can be an <strong>overwhelming</strong> place for visitors and many people	who come here only see the main sites and miss out on so many <em>cool</em> and <em>unique</em> places!</p>
-	<p>Check out my <strong>TOP 3</strong> list that <em>every</em> person should see!</p>
+
+		<p>New York City can be an <strong>overwhelming</strong> place for visitors and many people	who come here only see the main sites and miss out on so many <em>cool</em> and <em>unique</em> places!</p><br>
+		<p>Check out my <strong>TOP 3</strong> list that <em>every</em> person should see!</p>
 	<h2>My Top 3 List</h2>
-	<ol>
-		<li><a href="destinations/red-hook.html">Red Hook, Brooklyn</a></li>
-		<li><a href="destinations/high-line.html">The High Line, Manhattan</a></li>
-		<li><a href="destinations/cloisters.html">The Cloisters, Manhattan</a></li>
-	</ol>
-	<h2>Existing site comparison</h2>
-	<p>Here is the <a href="http://www.angelafoxpetersen.com/nyc-favorites/">link</a> to another site about someone's favorite places.  Below are a few of my thoughts about this site: </p>
-	<ul>
-		<li>Overall I really like the look and feel of the site.  Since this is part of a larger site there is a lot of additional functionality (social linking, comments area, search box)</li>
-		<li>I recognize most of the HTML elements and most of the additional code is CSS styling.</li>
-	</ul>
+
+	<div class="top-three" id="red-hook">
+		<a href="destinations/red-hook.html"><h3>1. Red Hook <br> Brooklyn</h3>
+		<img src="images/top3-redhook.jpg" alt="Photo of Red Hook" width="300" height="200"></a>
+		
+	</div>
+	<div class="top-three" id="high-line">
+		<a href="destinations/high-line.html"><h3>2. The High Line <br> Manhattan</h3>
+			<img src="images/top3-highline.jpg" alt="Photo of The High Line" width="300" height="200">
+		</a>
+	</div>
+	<div class="top-three" id="cloisters">	
+		<a href="destinations/cloisters.html"><h3>3. The Cloisters <br> Manhattan</h3>
+			<img src="images/top3-cloisters.jpg" alt="Photo of The Cloisters" width="300" height="200"></a>
+	</div> 
+
+	<footer>
+		<h2>Existing site comparison</h2>
+
+		<p>Here is the <a href="http://www.angelafoxpetersen.com/nyc-favorites/">link</a> to another site about someone's favorite places.  Below are a few of my thoughts about this site: </p>
+
+		<ul>
+			<li>Overall I really like the look and feel of the site.  Since this is part of a larger site there is a lot of additional functionality (social linking, comments area, search box)</li>
+			<li>I recognize most of the HTML elements and most of the additional code is CSS styling.</li>
+		</ul>
+	</footer>	
 
 </body>
 </html>
+
